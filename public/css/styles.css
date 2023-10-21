@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Redressed&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Redressed&display=swap');
+
+  @font-face {
+    font-family: 'Redressed';
+    src: url('asset/Redressed/Redressed-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Merriweather';
+    src: url('asset/Merriweather/Merriweather-Black.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  /* Utilisez les polices dans votre style CSS */
+  
+  *{
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+    
+
+  .navig{
+    background-color: rgba(245, 153, 153, 0.55);
+    font-family: 'Merriweather', serif;
+    box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.54);
+    z-index: 99;
+
+    
+  }
+
+  .btn-order{
+        color: var(--bs-white);
+        border-color: var(--bs-teal);
+        transition: 0.5s;
+  }
+
+  .btn-order:hover,
+  .btn-order:active{
+    color: aliceblue;
+    background-color: var(--bs-teal);
+  }
+
+  .navig .nav-link{
+    border-bottom: 1px solid transparent;
+    transition:padding-bottom .4s ease-in-out;
+  }
+
+  .navig .nav-link:hover{
+    padding-bottom: 20px;
+    border-bottom-color:var(--bs-teal) ;
+  }
+
+  .banner{
+    background-image:url('../images/pic7.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+  }
+
+  .h1{
+    font: size 48px;
+    font-family: 'Redressed', cursive; 
+    color: white;
+    
+  }
+
+  .btn-outline{
+    color: var(--bs-teal);
+    border-color: var(--bs-blue);
+    transition: 0.5s;
+  }
+  
+  .card-header{
+    font-family: 'Redressed',cursive;
+  }
+
+  .menu{
+    background-image:url('../Images/drinks-1283608.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 1550px;
+  }
+
+  .cap{
+    font-size: 30px;
+    font-family: 'Merriweather',serif;
+    font-weight: bold;
+  }
+
+ .form{
+  background-image:url('../Images/table-5356682.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+ } 
+
+ .sp{
+  font-size: 30px;
+    font-family: 'Redressed',serif;
+    font-weight: bold;
+ }
+
+ .sig{
+  border-radius: 50%;
+ }
+
+ .t{
+  width: 15px;
+ }
+
+ 
